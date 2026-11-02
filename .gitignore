@@ -26,3 +26,6 @@ build/
 .idea/
 .vscode/
 *.log
+# Local email delivery and demonstration secrets
+local-mail/
+.demo-password

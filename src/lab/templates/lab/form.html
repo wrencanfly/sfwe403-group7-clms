@@ -1,0 +1,1 @@
+{% extends 'lab/base.html' %}{% block content %}<p class="eyebrow">CLINICAL LABORATORY</p><h1>{{ title }}</h1><section class="panel form-panel"><form method="post">{% csrf_token %}{{ form.as_p }}<button>Save and continue</button></form></section>{% endblock %}
